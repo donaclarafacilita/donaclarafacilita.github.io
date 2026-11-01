@@ -1,1 +1,64 @@
-<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Dona Clara Facilita</title><style>body{margin:0;min-height:100vh;display:grid;place-items:center;background:#FFF4E0;font-family:Segoe UI,Arial,sans-serif;color:#1B3A57;text-align:center}</style></head><body><main><h1>🏡 Dona Clara Facilita</h1><p>Em breve: os produtos dos Stories aparecem aqui.</p></main></body></html>
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Achadinhos da Dona Clara</title><meta name="description" content="Os achadinhos dos Stories da Dona Clara Facilita: casa, cozinha e economia.">
+<meta name="theme-color" content="#1F7A7A"><link rel="icon" href="avatar.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;800&family=Nunito:wght@500;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--creme:#FFF6E6;--creme2:#FCEBD0;--petroleo:#1F7A7A;--petroleo-esc:#16595A;--coral:#E8604C;--mostarda:#F2B33D;--marinho:#1B3A57;--branco:#fff}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--creme);color:var(--marinho);font:500 16px/1.4 Nunito,'Segoe UI',Arial,sans-serif}
+main{max-width:520px;margin:0 auto;padding:0 16px 48px}
+h1,h2,h3,.num,.preco{font-family:'Baloo 2',Nunito,sans-serif;line-height:1.05}
+svg{width:1em;height:1em;display:block}
+header{position:relative;text-align:center;padding:34px 8px 22px;overflow:hidden}
+header::before{content:"";position:absolute;inset:-60px -40px auto;height:230px;background:repeating-conic-gradient(from 0deg,#F2B33D33 0 6deg,transparent 6deg 18deg);border-radius:50%;z-index:-1}
+.avatar{width:118px;height:118px;border-radius:50%;border:5px solid var(--petroleo);box-shadow:0 0 0 3px var(--mostarda),0 8px 0 var(--marinho);background:var(--mostarda)}
+h1{font-size:34px;font-weight:800;margin:14px 0 2px}
+.arroba{display:inline-block;font-weight:800;color:var(--petroleo);text-decoration:none}
+.lema{margin:8px auto 0;max-width:340px;font-weight:700}
+.sol{color:var(--mostarda);display:inline-block;width:22px;vertical-align:-4px}
+section{margin-top:18px}
+.titulo{display:flex;align-items:baseline;justify-content:space-between;gap:8px;flex-wrap:wrap;margin:0 2px 12px}
+h2{font-size:26px;font-weight:800;margin:0}.hoje h2{color:var(--coral)}
+.chip{background:var(--petroleo);color:var(--branco);font-weight:800;font-size:13px;padding:4px 10px;border-radius:999px}
+.dica{font-size:14px;font-weight:700;opacity:.75}
+.card{position:relative;display:flex;gap:14px;align-items:stretch;background:var(--branco);border:3px solid var(--marinho);border-radius:22px;padding:12px;margin:0 0 16px;
+  color:inherit;text-decoration:none;box-shadow:0 6px 0 var(--marinho);transition:transform .12s,box-shadow .12s}
+.card:active{transform:translateY(4px);box-shadow:0 2px 0 var(--marinho)}
+.num{position:absolute;top:-12px;left:-10px;z-index:1;min-width:46px;height:46px;padding:0 8px;display:grid;place-items:center;background:var(--coral);color:var(--branco);
+  font-size:30px;font-weight:800;border:3px solid var(--marinho);border-radius:16px;transform:rotate(-6deg)}
+.foto{flex:0 0 112px;height:112px;border-radius:14px;overflow:hidden;background:var(--creme2);display:grid;place-items:center}
+.foto img{width:100%;height:100%;object-fit:cover}.sem-foto{width:44px;height:44px;color:var(--petroleo);opacity:.55}.sem-foto svg{width:100%;height:100%}
+.info{flex:1;min-width:0;display:flex;flex-direction:column;gap:4px}
+.nome{font-weight:800;font-size:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.preco{font-size:26px;font-weight:800;color:var(--coral)}
+.btn{margin-top:auto;align-self:flex-start;background:var(--petroleo);color:var(--branco);font-weight:800;font-size:15px;padding:8px 14px;border-radius:999px}
+.btn b{color:var(--mostarda)}
+.demo{align-self:flex-start;background:var(--marinho);color:var(--branco);font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.04em;padding:2px 7px;border-radius:6px}
+.vazio{background:var(--branco);border:3px dashed var(--petroleo);border-radius:22px;padding:18px;font-weight:700;text-align:center}
+.anteriores{margin-top:34px;padding-top:24px;border-top:3px dotted #1B3A5733}
+.busca{display:flex;align-items:center;gap:10px;background:var(--branco);border:3px solid var(--marinho);border-radius:999px;padding:10px 16px;margin:0 0 18px;color:var(--petroleo)}
+.busca input{flex:1;min-width:0;border:0;outline:0;background:none;font:700 16px Nunito,sans-serif;color:var(--marinho)}
+h3{font-size:18px;font-weight:800;margin:20px 2px 14px;color:var(--petroleo)}
+.anteriores .card{box-shadow:0 4px 0 var(--marinho);border-width:2px;padding:10px}
+.anteriores .foto{flex-basis:76px;height:76px}.anteriores .preco{font-size:21px}.anteriores .btn{font-size:13px;padding:6px 12px}
+.anteriores .num{min-width:36px;height:36px;font-size:22px;border-radius:12px;top:-10px;left:-8px}
+#nada{text-align:center;font-weight:700;opacity:.7}
+footer{margin-top:34px;text-align:center;font-size:13px;line-height:1.5;opacity:.8}
+footer .publi{display:inline-block;background:var(--mostarda);color:var(--marinho);font-weight:800;border-radius:6px;padding:1px 7px;margin-bottom:6px}
+@media (max-width:370px){.foto{flex-basis:88px;height:88px}.preco{font-size:22px}h1{font-size:29px}}
+</style></head><body><main>
+<header><img class='avatar' src='avatar.jpg' alt='Dona Clara'><h1>Achadinhos da Dona Clara</h1>
+<a class="arroba" href="https://www.instagram.com/donaclarafacilita/" target="_blank" rel="noopener">@donaclarafacilita</a>
+<p class="lema"><span class="sol"><svg viewBox='0 0 64 64' aria-hidden='true'><circle cx='32' cy='32' r='12' fill='currentColor'/><g stroke='currentColor' stroke-width='5' stroke-linecap='round'><path d='M32 4v8M32 52v8M4 32h8M52 32h8M12 12l6 6M46 46l6 6M12 52l6-6M46 18l6-6'/></g></svg></span> Os produtos que mostro nos Stories, tudo num lugar só.</p></header>
+<section class="hoje"><div class="titulo"><h2>Achadinhos de hoje</h2><span class="chip">1 de nov</span></div>
+<p class="dica" style="margin:-4px 2px 18px">O número é o mesmo que aparece no Story.</p><a class='card grande' href='https://s.shopee.com.br/8pn0vTFKOe' rel='sponsored noopener' target='_blank' data-nome='kit caçarola com tampa de vidro | antiaderente teflon + espátula de brinde- kit panela arroz e feijão.'><span class='num'>1</span><span class='foto'><img src='https://cf.shopee.com.br/file/br-11134207-820l4-mli20uretjwn1d' alt='' loading='lazy'></span><span class='info'><span class='nome'>Kit Caçarola com Tampa de Vidro | Antiaderente Teflon + Espátula de Brinde- Kit PANELA Arroz e Feijão.</span><span class='preco'>R$ 62,10</span><span class='btn'>Ver na Shopee <b>›</b></span></span></a><a class='card grande' href='https://s.shopee.com.br/6VP69BW378' rel='sponsored noopener' target='_blank' data-nome='porta detergente sabão líquido com suporte esponja pia cozinha dosador organizador plástico'><span class='num'>2</span><span class='foto'><img src='https://cf.shopee.com.br/file/sg-11134201-821e7-mgz6ufcfrcpb80' alt='' loading='lazy'></span><span class='info'><span class='nome'>Porta Detergente Sabão Líquido com Suporte Esponja Pia Cozinha Dosador Organizador Plástico</span><span class='preco'>R$ 14,99</span><span class='btn'>Ver na Shopee <b>›</b></span></span></a><a class='card grande' href='https://s.shopee.com.br/5VWYx6Se8D' rel='sponsored noopener' target='_blank' data-nome='cesto de roupa suja duplo com 2 divisórias separador de roupas para lavanderia yikasa'><span class='num'>3</span><span class='foto'><img src='https://cf.shopee.com.br/file/sg-11134201-824i1-mea1qselrhtv40' alt='' loading='lazy'></span><span class='info'><span class='nome'>Cesto de Roupa Suja Duplo com 2 Divisórias Separador de Roupas para Lavanderia Yikasa</span><span class='preco'>R$ 39,60</span><span class='btn'>Ver na Shopee <b>›</b></span></span></a><a class='card grande' href='https://s.shopee.com.br/5q9PLy3Jbr' rel='sponsored noopener' target='_blank' data-nome='kit de organizadores de acrílico multiuso para gavetas, geladeira, talher, maquiagem empilhavél varios tamanhos'><span class='num'>4</span><span class='foto'><img src='https://cf.shopee.com.br/file/br-11134207-7r98o-m9rdlxmr3pkp19' alt='' loading='lazy'></span><span class='info'><span class='nome'>Kit de Organizadores de Acrílico Multiuso para Gavetas, Geladeira, Talher, Maquiagem Empilhavél Varios Tamanhos</span><span class='preco'>R$ 29,90</span><span class='btn'>Ver na Shopee <b>›</b></span></span></a><a class='card grande' href='https://s.shopee.com.br/8fTajB6lAA' rel='sponsored noopener' target='_blank' data-nome='kit potes mantimentos vidro herméticos com tampa bambu alta resistência epsilon transparente'><span class='num'>5</span><span class='foto'><img src='https://cf.shopee.com.br/file/br-11134207-820ld-mso4uf7pu0p11c' alt='' loading='lazy'></span><span class='info'><span class='nome'>Kit Potes Mantimentos Vidro Herméticos Com Tampa Bambu Alta Resistência Epsilon Transparente</span><span class='preco'>R$ 41,54</span><span class='btn'>Ver na Shopee <b>›</b></span></span></a><a class='card grande' href='https://s.shopee.com.br/9KjHWPC3jt' rel='sponsored noopener' target='_blank' data-nome='suporte porta shampoo e sabonete - de canto parede banheiro - bnvt'><span class='num'>6</span><span class='foto'><img src='https://cf.shopee.com.br/file/br-11134207-7r98o-lzrk19298tcl85' alt='' loading='lazy'></span><span class='info'><span class='nome'>Suporte Porta Shampoo E Sabonete - De Canto Parede Banheiro - BNVT</span><span class='preco'>R$ 16,90</span><span class='btn'>Ver na Shopee <b>›</b></span></span></a><a class='card grande' href='https://s.shopee.com.br/5q9PLycmyI' rel='sponsored noopener' target='_blank' data-nome='kit 5 saco organizador zíper cobertor casaco guarda roupa anti-poeira anti-umidade multiuso 44 x 20 x 38'><span class='num'>7</span><span class='foto'><img src='https://cf.shopee.com.br/file/br-11134207-820ll-mnx2m0em0zy821' alt='' loading='lazy'></span><span class='info'><span class='nome'>Kit 5 Saco Organizador zíper Cobertor Casaco Guarda Roupa Anti-Poeira Anti-Umidade Multiuso 44 x 20 x 38</span><span class='preco'>R$ 28,99</span><span class='btn'>Ver na Shopee <b>›</b></span></span></a></section>
+
+<footer><span class="publi">#publi</span><br>Links de afiliado da Shopee: posso receber comissão, sem custo extra para você.<br>
+Preço e estoque podem mudar na Shopee.<br>Atualizado em 01/11/2026 às 13:28</footer></main>
+<script>
+const q=document.getElementById('q');
+if(q)q.addEventListener('input',()=>{const t=q.value.trim().toLowerCase();let n=0;
+document.querySelectorAll('#lista .dia').forEach(d=>{let v=0;d.querySelectorAll('.card').forEach(c=>{const ok=!t||c.dataset.nome.includes(t);c.hidden=!ok;v+=ok});d.hidden=!v;n+=v});
+document.getElementById('nada').hidden=n>0});
+</script></body></html>
